@@ -1,0 +1,127 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+/* Navigation Styles */
+nav {
+    font-size: 23px;
+    
+    font-weight: bold;
+    background: #ff8614; /* Violeta oscuro */
+    color: white;
+    padding: 15px 20px;
+    position: fixed; /* Fijo en la parte superior */
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: 1000; /* Asegura que el nav esté encima de otros contenidos */
+}
+p{
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background: #5b0c9f; /* Violeta más oscuro en hover */
+}
+
+/* Main Content Styles */
+main {
+    margin-top: 70px; /* Espacio suficiente para el nav fijo */
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Máximo ancho para mantener la lectura cómoda */
+    margin-left: auto;
+    margin-right: auto; /* Centramos horizontalmente */
+}
+
+main h1 {
+    color: #ffb007; /* Violeta para los encabezados */
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.cart-products {
+    
+    background: #e0e0e0; /* Fondo gris claro para el contenedor de productos */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.cart-products li{
+    text-decoration: none;
+}
+.cart-products-title {
+    font-size: 18px;
+    color: #000000; /* Violeta para el título */
+    font-weight: bold;
+}
+
+#cant, #total {
+    font-weight: bold;
+    color: #0a0a0a; /* Violeta para los valores */
+}
+
+/* Button Styles */
+button {
+    background: #ad750d; /* Violeta oscuro para el botón */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ffd620; /* Violeta más oscuro en hover */
+}
+
+/* Optional: Style for links inside <a> elements wrapping the button */
+a button {
+    display: inline-block; /* Ensure button is inline with surrounding content */
+}
+
+/* Elimina la decoración de listas por defecto */
+ul {
+    list-style: none; /* Elimina los puntos o viñetas de la lista */
+    padding: 0; /* Elimina el padding interno */
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+body{
+    background-color: #ffbe74;
+}
